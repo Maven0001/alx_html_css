@@ -30,11 +30,13 @@
   text-decoration: none;
   color: #fff;
   font-size: 12px;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 h1 {
   font-size: 120px;
-  font-weight: 600;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 800;
   text-align: center;
   margin-top: 156px;
   margin-bottom: 0px;
@@ -50,6 +52,7 @@ h1 {
 
 span {
   font-size: 16px;
+  font-family: "Source Sans 3", sans-serif;
   color: #fff;
   font-weight: bold;
 }
@@ -63,6 +66,7 @@ span {
 button {
   display: inline-block;
   font-size: 14px;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 500;
   color: #fff;
   background-color: #c271ff;
@@ -78,6 +82,7 @@ button {
 
 h2 {
   font-size: 32px;
+  font-family: "Source Sans 3", sans-serif;
   text-align: center;
   margin-top: 168px;
   font-weight: lighter;
@@ -86,7 +91,8 @@ h2 {
 
 .h2-span {
   color: #c271ff;
-  font-size: 32px;
+  font-size: 32px;.
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
 }
 
@@ -102,6 +108,7 @@ h2 {
 
 h3 {
   font-size: 18px;
+  font-family: "Source Sans 3", sans-serif;
   color: #fff;
   font-weight: bolder;
   margin-bottom: 0px;
@@ -109,6 +116,7 @@ h3 {
 
 .header-img p {
   font-size: 16px;
+  font-family: "Source Sans 3", sans-serif;
   font-style: italic;
   color: #fff;
   width: 150px;
@@ -127,4 +135,305 @@ h3 {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+  display: flex;
+  background-color: #c271ff;
+  height: 392px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2 blockquote {
+  font-size: 22px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  width: 730px;
+  height: 68px;
+  color: #fff;
+}
+
+.section-2 h3 {
+  padding-left: 53px;
+  margin-top: 22px;
+}
+
+.section-2 p {
+  font-size: 22px;
+  font-family: "Source Sans 3", sans-serif;
+  font-style: italic;
+  color: #fff;
+  margin-top: 0px;
+  padding-left: 53px;
+}
+
+/* VIDEOS LIST */
+
+.video-list-section{
+  width: 1228px;
+  margin: auto;
+}
+
+.video-list-section h2{
+  font-size: 32px;
+  font-family: "Source Sans 3", sans-serif;
+  text-align: center;
+  color: #071629;
+}
+
+.videos-list{
+  display: flex;
+  gap: 31px;
+  justify-content: center;
+}
+
+.little-img{
+  width: 30px;
+  height: 30px;
+}
+
+.img-name{
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.main-img{
+  width: 255px;
+  height: 154px;
+}
+
+.review-star{
+  display: flex;
+  gap: 8px;
+}
+
+/* .review-star p{
+  font-size: 14px;
+  line-height: 24px;
+  width: 242px;
+  
+} */
+
+.fa-solid{
+  /* height: 15px;
+  width: 107px; */
+  color: #c271ff;
+}
+
+.a{
+  color: #d8d8d8;
+}
+
+.review-star-time{
+  display: flex;
+  gap: 79px;
+  align-items: center;
+}
+
+.review-star-time p, h4{
+  font-size: 14px;
+  font-weight: 600;
+  color: #c271ff;
+}
+
+
+.video-container{
+  width: 255px;
+  height: 335px;
+}
+
+.main-img-container h3{
+font-size: 16px;
+color: #071629;
+font-weight: 800;
+}
+
+.main-img-container p{
+  font-size: 14px;
+  line-height: 24px;
+  width: 242px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEMBERSHIP */
+.membership-section{
+  display: flex;
+  flex-direction: column;
+  background-color: #071629;
+  height: 502px;
+  /* width: 1440px; */
+  margin-top: 87px;
+}
+
+.membership-section h2 {
+  font-size: 32px;
+  font-family: "Source Sans 3", sans-serif;
+  text-align: center;
+  margin-top: 70px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.membership-section h2 span {
+  color: #c271ff;
+  font-size: 32px;.
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+}
+
+
+.membership-perks{
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  margin-top: 58px;
+}
+
+.membership-perks img{
+  align-items: center;
+}
+
+/* .membership{
+  width: 257px;
+  height: 153px;
+} */
+
+.membership{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 257px;
+  height: 153px;
+}
+
+.membership p{
+  font-size: 14px;
+  color: #fff;
+  font-family: "Source Sans 3", sans-serif;
+  width: 212px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.membership:first-child{
+  margin-left: 164px;
+}
+
+.membership:last-child{
+  margin-right: 164px;
+}
+
+
+
+.membership-section button {
+  display: inline-block;
+  margin: auto;
+  font-size: 14px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background-color: #c271ff;
+  border-radius: 22px;
+  height: 44px;
+  width: 162px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 21px;
+  border: none;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 50);
+}
+
+/* F.A.Q */
+
+.faq-section{
+  width: auto;
+  height: 707px;
+  margin-top: 67px;
+  margin-left: 249px;
+  margin-right: 271px;
+  margin-bottom: 0px;
+}
+
+.faq-section h2{
+  color: #071629;
+  text-align: center;
+  font-size: 60px;
+}
+
+.flex-1{
+  display: flex;
+  gap: 220px;
+  
+}
+
+.flex-1 h3{
+  font-size: 16px;
+  color: #071629;
+}
+
+.flex-1 p{
+  font-size: 14px;
+  line-height: 24px;
+  width: 350px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* FOOTER-SECTION */
+
+.footer-section{
+  margin-top: 84px;
+  height: 249px;
+  background-color: #071629;
+}
+
+.footer-content{
+display: flex;
+  gap: 736px;
+}
+
+.footer-section p{
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  margin-top: 75px;
+  opacity: 35.17%;
+}
+
+.footer-logo{
+  margin-top: 95px;
+  margin-left: 165px;
+}
+
+.social-icons{
+  display: flex;
+  gap: 22px;
+  font-size: 30px;
+  margin-top: 90px;
+  margin-right: 240px;
+}
+
+.fa-brands{
+  color: #fff;
 }
