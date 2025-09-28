@@ -24,6 +24,7 @@
   gap: 53px;
   margin-top: 37px;
   margin-right: 165px;
+  
 }
 
 .nav-links a {
@@ -31,6 +32,7 @@
   color: #fff;
   font-size: 12px;
   font-family: "Source Sans 3", sans-serif;
+  cursor: pointer;
 }
 
 h1 {
@@ -78,6 +80,7 @@ button {
   padding-right: 21px;
   border: none;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 50);
+  cursor: pointer;
 }
 
 h2 {
@@ -175,6 +178,9 @@ h3 {
 .video-list-section{
   width: 1228px;
   margin: auto;
+  margin-top: 87px;
+  height: 450px;
+  padding-bottom: 87px;
 }
 
 .video-list-section h2{
@@ -182,12 +188,15 @@ h3 {
   font-family: "Source Sans 3", sans-serif;
   text-align: center;
   color: #071629;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .videos-list{
   display: flex;
   gap: 31px;
   justify-content: center;
+  margin-top: 74px;
 }
 
 .little-img{
@@ -204,6 +213,19 @@ h3 {
 .main-img{
   width: 255px;
   height: 154px;
+  display: block;
+}
+
+.main-img-container{
+  position: relative;
+}
+
+.play-icon{
+  position: absolute;
+  /* z-index: 5; */
+  top: 15%;
+  left: 40%;
+  cursor: pointer;
 }
 
 .review-star{
@@ -242,14 +264,14 @@ h3 {
 
 
 .video-container{
-  width: 255px;
+  /* width: 255px; */
   height: 335px;
 }
 
 .main-img-container h3{
 font-size: 16px;
 color: #071629;
-font-weight: 800;
+font-weight: 700;
 }
 
 .main-img-container p{
@@ -261,21 +283,6 @@ font-weight: 800;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MEMBERSHIP */
 .membership-section{
   display: flex;
@@ -283,7 +290,7 @@ font-weight: 800;
   background-color: #071629;
   height: 502px;
   /* width: 1440px; */
-  margin-top: 87px;
+ 
 }
 
 .membership-section h2 {
@@ -345,7 +352,6 @@ font-weight: 800;
 }
 
 
-
 .membership-section button {
   display: inline-block;
   margin: auto;
@@ -363,6 +369,7 @@ font-weight: 800;
   padding-right: 21px;
   border: none;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 50);
+  cursor: pointer;
 }
 
 /* F.A.Q */
@@ -380,6 +387,7 @@ font-weight: 800;
   color: #071629;
   text-align: center;
   font-size: 60px;
+  margin-top: 0px;
 }
 
 .flex-1{
